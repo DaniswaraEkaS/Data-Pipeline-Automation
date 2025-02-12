@@ -5,10 +5,10 @@ path = '/opt/airflow/dags/'
 
 def load(data):
     # connect to MongoDB
-    mongodb_uri = 'mongodb+srv://admin:admin@danes-playground.vft0x.mongodb.net/'
+    mongodb_uri = ''
     client = MongoClient(mongodb_uri)
-    db = client['Milestone3']
-    collection = db['Data_Engineer']
+    db = client['']
+    collection = db['']
     
     # Convert dataframe to a list of dictionaries
     
